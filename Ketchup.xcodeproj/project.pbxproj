@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55CA48362879E4070072A333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CA48352879E4070072A333 /* AppDelegate.swift */; };
+		55CA48382879E4070072A333 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CA48372879E4070072A333 /* SceneDelegate.swift */; };
+		55CA483A2879E4070072A333 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CA48392879E4070072A333 /* ViewController.swift */; };
+		55CA483D2879E4070072A333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CA483B2879E4070072A333 /* Main.storyboard */; };
+		55CA483F2879E4080072A333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55CA483E2879E4080072A333 /* Assets.xcassets */; };
+		55CA48422879E4080072A333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CA48402879E4080072A333 /* LaunchScreen.storyboard */; };
+		55CA484D2879E4080072A333 /* KetchupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CA484C2879E4080072A333 /* KetchupTests.swift */; };
+		55CA48572879E4080072A333 /* KetchupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CA48562879E4080072A333 /* KetchupUITests.swift */; };
+		55CA48592879E4080072A333 /* KetchupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CA48582879E4080072A333 /* KetchupUITestsLaunchTests.swift */; };
+		BFD83A5328DA54B4A9C64380 /* Pods_Ketchup_KetchupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8116F01C6A3A4F859FE428 /* Pods_Ketchup_KetchupUITests.framework */; };
+		DEB4339C7D7E4D4D4307B18A /* Pods_Ketchup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2720F56AB265827D40F72CAC /* Pods_Ketchup.framework */; };
+		FF58F0FEA69D87FFA36CEF58 /* Pods_KetchupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40FD9CE1288856674E17961 /* Pods_KetchupTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55CA48492879E4080072A333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55CA482A2879E4070072A333 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55CA48312879E4070072A333;
+			remoteInfo = Ketchup;
+		};
+		55CA48532879E4080072A333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55CA482A2879E4070072A333 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55CA48312879E4070072A333;
+			remoteInfo = Ketchup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083FD3660CA20F4CEB8D6C9C /* Pods-KetchupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KetchupTests.release.xcconfig"; path = "Target Support Files/Pods-KetchupTests/Pods-KetchupTests.release.xcconfig"; sourceTree = "<group>"; };
+		2619E945DEF7A2EB4ED62551 /* Pods-Ketchup-KetchupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ketchup-KetchupUITests.release.xcconfig"; path = "Target Support Files/Pods-Ketchup-KetchupUITests/Pods-Ketchup-KetchupUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2720F56AB265827D40F72CAC /* Pods_Ketchup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ketchup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CA48322879E4070072A333 /* Ketchup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ketchup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CA48352879E4070072A333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55CA48372879E4070072A333 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55CA48392879E4070072A333 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55CA483C2879E4070072A333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55CA483E2879E4080072A333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55CA48412879E4080072A333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55CA48432879E4080072A333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55CA48482879E4080072A333 /* KetchupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KetchupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CA484C2879E4080072A333 /* KetchupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetchupTests.swift; sourceTree = "<group>"; };
+		55CA48522879E4080072A333 /* KetchupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KetchupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CA48562879E4080072A333 /* KetchupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetchupUITests.swift; sourceTree = "<group>"; };
+		55CA48582879E4080072A333 /* KetchupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetchupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FAB8275DDFA15C093DBB7F3 /* Pods-KetchupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KetchupTests.debug.xcconfig"; path = "Target Support Files/Pods-KetchupTests/Pods-KetchupTests.debug.xcconfig"; sourceTree = "<group>"; };
+		982E5BC4586E339A51098B04 /* Pods-Ketchup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ketchup.release.xcconfig"; path = "Target Support Files/Pods-Ketchup/Pods-Ketchup.release.xcconfig"; sourceTree = "<group>"; };
+		A1BAA5E6E49F4576DDDF7EB3 /* Pods-Ketchup-KetchupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ketchup-KetchupUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ketchup-KetchupUITests/Pods-Ketchup-KetchupUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE8116F01C6A3A4F859FE428 /* Pods_Ketchup_KetchupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ketchup_KetchupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE0ED6E76ACEB300A5478BE /* Pods-Ketchup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ketchup.debug.xcconfig"; path = "Target Support Files/Pods-Ketchup/Pods-Ketchup.debug.xcconfig"; sourceTree = "<group>"; };
+		E40FD9CE1288856674E17961 /* Pods_KetchupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KetchupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55CA482F2879E4070072A333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB4339C7D7E4D4D4307B18A /* Pods_Ketchup.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CA48452879E4080072A333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF58F0FEA69D87FFA36CEF58 /* Pods_KetchupTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CA484F2879E4080072A333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD83A5328DA54B4A9C64380 /* Pods_Ketchup_KetchupUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55CA48292879E4070072A333 = {
+			isa = PBXGroup;
+			children = (
+				55CA48342879E4070072A333 /* Ketchup */,
+				55CA484B2879E4080072A333 /* KetchupTests */,
+				55CA48552879E4080072A333 /* KetchupUITests */,
+				55CA48332879E4070072A333 /* Products */,
+				F4AACBD74B9783811DC64519 /* Pods */,
+				DA57F051EAA2EBE8BE437DE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55CA48332879E4070072A333 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55CA48322879E4070072A333 /* Ketchup.app */,
+				55CA48482879E4080072A333 /* KetchupTests.xctest */,
+				55CA48522879E4080072A333 /* KetchupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55CA48342879E4070072A333 /* Ketchup */ = {
+			isa = PBXGroup;
+			children = (
+				55CA48672879E4B60072A333 /* AppDelegate */,
+				55CA48662879E4970072A333 /* Resources */,
+			);
+			path = Ketchup;
+			sourceTree = "<group>";
+		};
+		55CA484B2879E4080072A333 /* KetchupTests */ = {
+			isa = PBXGroup;
+			children = (
+				55CA484C2879E4080072A333 /* KetchupTests.swift */,
+			);
+			path = KetchupTests;
+			sourceTree = "<group>";
+		};
+		55CA48552879E4080072A333 /* KetchupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55CA48562879E4080072A333 /* KetchupUITests.swift */,
+				55CA48582879E4080072A333 /* KetchupUITestsLaunchTests.swift */,
+			);
+			path = KetchupUITests;
+			sourceTree = "<group>";
+		};
+		55CA48662879E4970072A333 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55CA48432879E4080072A333 /* Info.plist */,
+				55CA483E2879E4080072A333 /* Assets.xcassets */,
+				55CA48682879E4DB0072A333 /* Others */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55CA48672879E4B60072A333 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				55CA48352879E4070072A333 /* AppDelegate.swift */,
+				55CA48372879E4070072A333 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		55CA48682879E4DB0072A333 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				55CA48392879E4070072A333 /* ViewController.swift */,
+				55CA483B2879E4070072A333 /* Main.storyboard */,
+				55CA48402879E4080072A333 /* LaunchScreen.storyboard */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		DA57F051EAA2EBE8BE437DE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2720F56AB265827D40F72CAC /* Pods_Ketchup.framework */,
+				AE8116F01C6A3A4F859FE428 /* Pods_Ketchup_KetchupUITests.framework */,
+				E40FD9CE1288856674E17961 /* Pods_KetchupTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4AACBD74B9783811DC64519 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEE0ED6E76ACEB300A5478BE /* Pods-Ketchup.debug.xcconfig */,
+				982E5BC4586E339A51098B04 /* Pods-Ketchup.release.xcconfig */,
+				A1BAA5E6E49F4576DDDF7EB3 /* Pods-Ketchup-KetchupUITests.debug.xcconfig */,
+				2619E945DEF7A2EB4ED62551 /* Pods-Ketchup-KetchupUITests.release.xcconfig */,
+				6FAB8275DDFA15C093DBB7F3 /* Pods-KetchupTests.debug.xcconfig */,
+				083FD3660CA20F4CEB8D6C9C /* Pods-KetchupTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55CA48312879E4070072A333 /* Ketchup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CA485C2879E4080072A333 /* Build configuration list for PBXNativeTarget "Ketchup" */;
+			buildPhases = (
+				4B0C1668D41CD76C5FE1FE10 /* [CP] Check Pods Manifest.lock */,
+				55CA482E2879E4070072A333 /* Sources */,
+				55CA482F2879E4070072A333 /* Frameworks */,
+				55CA48302879E4070072A333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ketchup;
+			productName = Ketchup;
+			productReference = 55CA48322879E4070072A333 /* Ketchup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55CA48472879E4080072A333 /* KetchupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CA485F2879E4080072A333 /* Build configuration list for PBXNativeTarget "KetchupTests" */;
+			buildPhases = (
+				0B3D99FCF302713A7E605108 /* [CP] Check Pods Manifest.lock */,
+				55CA48442879E4080072A333 /* Sources */,
+				55CA48452879E4080072A333 /* Frameworks */,
+				55CA48462879E4080072A333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55CA484A2879E4080072A333 /* PBXTargetDependency */,
+			);
+			name = KetchupTests;
+			productName = KetchupTests;
+			productReference = 55CA48482879E4080072A333 /* KetchupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55CA48512879E4080072A333 /* KetchupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CA48622879E4080072A333 /* Build configuration list for PBXNativeTarget "KetchupUITests" */;
+			buildPhases = (
+				616341D12425C00F822A0C4B /* [CP] Check Pods Manifest.lock */,
+				55CA484E2879E4080072A333 /* Sources */,
+				55CA484F2879E4080072A333 /* Frameworks */,
+				55CA48502879E4080072A333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55CA48542879E4080072A333 /* PBXTargetDependency */,
+			);
+			name = KetchupUITests;
+			productName = KetchupUITests;
+			productReference = 55CA48522879E4080072A333 /* KetchupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55CA482A2879E4070072A333 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					55CA48312879E4070072A333 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					55CA48472879E4080072A333 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 55CA48312879E4070072A333;
+					};
+					55CA48512879E4080072A333 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 55CA48312879E4070072A333;
+					};
+				};
+			};
+			buildConfigurationList = 55CA482D2879E4070072A333 /* Build configuration list for PBXProject "Ketchup" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55CA48292879E4070072A333;
+			productRefGroup = 55CA48332879E4070072A333 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55CA48312879E4070072A333 /* Ketchup */,
+				55CA48472879E4080072A333 /* KetchupTests */,
+				55CA48512879E4080072A333 /* KetchupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55CA48302879E4070072A333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CA48422879E4080072A333 /* LaunchScreen.storyboard in Resources */,
+				55CA483F2879E4080072A333 /* Assets.xcassets in Resources */,
+				55CA483D2879E4070072A333 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CA48462879E4080072A333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CA48502879E4080072A333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B3D99FCF302713A7E605108 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KetchupTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B0C1668D41CD76C5FE1FE10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ketchup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		616341D12425C00F822A0C4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ketchup-KetchupUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55CA482E2879E4070072A333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CA483A2879E4070072A333 /* ViewController.swift in Sources */,
+				55CA48362879E4070072A333 /* AppDelegate.swift in Sources */,
+				55CA48382879E4070072A333 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CA48442879E4080072A333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CA484D2879E4080072A333 /* KetchupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CA484E2879E4080072A333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CA48572879E4080072A333 /* KetchupUITests.swift in Sources */,
+				55CA48592879E4080072A333 /* KetchupUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55CA484A2879E4080072A333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55CA48312879E4070072A333 /* Ketchup */;
+			targetProxy = 55CA48492879E4080072A333 /* PBXContainerItemProxy */;
+		};
+		55CA48542879E4080072A333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55CA48312879E4070072A333 /* Ketchup */;
+			targetProxy = 55CA48532879E4080072A333 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55CA483B2879E4070072A333 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55CA483C2879E4070072A333 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55CA48402879E4080072A333 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55CA48412879E4080072A333 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55CA485A2879E4080072A333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55CA485B2879E4080072A333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55CA485D2879E4080072A333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE0ED6E76ACEB300A5478BE /* Pods-Ketchup.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 754Q6V2X9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ketchup/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qzh.ketchup.Ketchup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55CA485E2879E4080072A333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982E5BC4586E339A51098B04 /* Pods-Ketchup.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 754Q6V2X9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ketchup/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qzh.ketchup.Ketchup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55CA48602879E4080072A333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FAB8275DDFA15C093DBB7F3 /* Pods-KetchupTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 754Q6V2X9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qzh.ketchup.KetchupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ketchup.app/Ketchup";
+			};
+			name = Debug;
+		};
+		55CA48612879E4080072A333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 083FD3660CA20F4CEB8D6C9C /* Pods-KetchupTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 754Q6V2X9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qzh.ketchup.KetchupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ketchup.app/Ketchup";
+			};
+			name = Release;
+		};
+		55CA48632879E4080072A333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BAA5E6E49F4576DDDF7EB3 /* Pods-Ketchup-KetchupUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 754Q6V2X9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qzh.ketchup.KetchupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ketchup;
+			};
+			name = Debug;
+		};
+		55CA48642879E4080072A333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2619E945DEF7A2EB4ED62551 /* Pods-Ketchup-KetchupUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 754Q6V2X9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qzh.ketchup.KetchupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ketchup;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55CA482D2879E4070072A333 /* Build configuration list for PBXProject "Ketchup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CA485A2879E4080072A333 /* Debug */,
+				55CA485B2879E4080072A333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CA485C2879E4080072A333 /* Build configuration list for PBXNativeTarget "Ketchup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CA485D2879E4080072A333 /* Debug */,
+				55CA485E2879E4080072A333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CA485F2879E4080072A333 /* Build configuration list for PBXNativeTarget "KetchupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CA48602879E4080072A333 /* Debug */,
+				55CA48612879E4080072A333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CA48622879E4080072A333 /* Build configuration list for PBXNativeTarget "KetchupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CA48632879E4080072A333 /* Debug */,
+				55CA48642879E4080072A333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55CA482A2879E4070072A333 /* Project object */;
+}
