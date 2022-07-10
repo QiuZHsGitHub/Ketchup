@@ -16,9 +16,7 @@
 		55CA484D2879E4080072A333 /* KetchupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CA484C2879E4080072A333 /* KetchupTests.swift */; };
 		55CA48572879E4080072A333 /* KetchupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CA48562879E4080072A333 /* KetchupUITests.swift */; };
 		55CA48592879E4080072A333 /* KetchupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CA48582879E4080072A333 /* KetchupUITestsLaunchTests.swift */; };
-		BFD83A5328DA54B4A9C64380 /* Pods_Ketchup_KetchupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8116F01C6A3A4F859FE428 /* Pods_Ketchup_KetchupUITests.framework */; };
 		DEB4339C7D7E4D4D4307B18A /* Pods_Ketchup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2720F56AB265827D40F72CAC /* Pods_Ketchup.framework */; };
-		FF58F0FEA69D87FFA36CEF58 /* Pods_KetchupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40FD9CE1288856674E17961 /* Pods_KetchupTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		083FD3660CA20F4CEB8D6C9C /* Pods-KetchupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KetchupTests.release.xcconfig"; path = "Target Support Files/Pods-KetchupTests/Pods-KetchupTests.release.xcconfig"; sourceTree = "<group>"; };
-		2619E945DEF7A2EB4ED62551 /* Pods-Ketchup-KetchupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ketchup-KetchupUITests.release.xcconfig"; path = "Target Support Files/Pods-Ketchup-KetchupUITests/Pods-Ketchup-KetchupUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2720F56AB265827D40F72CAC /* Pods_Ketchup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ketchup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CA48322879E4070072A333 /* Ketchup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ketchup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CA48352879E4070072A333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,12 +51,10 @@
 		55CA48522879E4080072A333 /* KetchupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KetchupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55CA48562879E4080072A333 /* KetchupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetchupUITests.swift; sourceTree = "<group>"; };
 		55CA48582879E4080072A333 /* KetchupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KetchupUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		6FAB8275DDFA15C093DBB7F3 /* Pods-KetchupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KetchupTests.debug.xcconfig"; path = "Target Support Files/Pods-KetchupTests/Pods-KetchupTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55CA50942879F5A50072A333 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		55CA50952879F5A50072A333 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		982E5BC4586E339A51098B04 /* Pods-Ketchup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ketchup.release.xcconfig"; path = "Target Support Files/Pods-Ketchup/Pods-Ketchup.release.xcconfig"; sourceTree = "<group>"; };
-		A1BAA5E6E49F4576DDDF7EB3 /* Pods-Ketchup-KetchupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ketchup-KetchupUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ketchup-KetchupUITests/Pods-Ketchup-KetchupUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		AE8116F01C6A3A4F859FE428 /* Pods_Ketchup_KetchupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ketchup_KetchupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE0ED6E76ACEB300A5478BE /* Pods-Ketchup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ketchup.debug.xcconfig"; path = "Target Support Files/Pods-Ketchup/Pods-Ketchup.debug.xcconfig"; sourceTree = "<group>"; };
-		E40FD9CE1288856674E17961 /* Pods_KetchupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KetchupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF58F0FEA69D87FFA36CEF58 /* Pods_KetchupTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFD83A5328DA54B4A9C64380 /* Pods_Ketchup_KetchupUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				55CA48672879E4B60072A333 /* AppDelegate */,
+				55CA50922879F28A0072A333 /* Module */,
+				55CA50932879F2E50072A333 /* Configs */,
 				55CA48662879E4970072A333 /* Resources */,
 			);
 			path = Ketchup;
@@ -142,8 +136,8 @@
 		55CA48662879E4970072A333 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				55CA48432879E4080072A333 /* Info.plist */,
 				55CA483E2879E4080072A333 /* Assets.xcassets */,
+				55CA48402879E4080072A333 /* LaunchScreen.storyboard */,
 				55CA48682879E4DB0072A333 /* Others */,
 			);
 			path = Resources;
@@ -163,17 +157,45 @@
 			children = (
 				55CA48392879E4070072A333 /* ViewController.swift */,
 				55CA483B2879E4070072A333 /* Main.storyboard */,
-				55CA48402879E4080072A333 /* LaunchScreen.storyboard */,
 			);
 			path = Others;
+			sourceTree = "<group>";
+		};
+		55CA50922879F28A0072A333 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				55CA5098287A05D90072A333 /* Home */,
+				55CA5097287A05D00072A333 /* Mine */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		55CA50932879F2E50072A333 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				55CA48432879E4080072A333 /* Info.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		55CA5097287A05D00072A333 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		55CA5098287A05D90072A333 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		DA57F051EAA2EBE8BE437DE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				2720F56AB265827D40F72CAC /* Pods_Ketchup.framework */,
-				AE8116F01C6A3A4F859FE428 /* Pods_Ketchup_KetchupUITests.framework */,
-				E40FD9CE1288856674E17961 /* Pods_KetchupTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -183,10 +205,6 @@
 			children = (
 				AEE0ED6E76ACEB300A5478BE /* Pods-Ketchup.debug.xcconfig */,
 				982E5BC4586E339A51098B04 /* Pods-Ketchup.release.xcconfig */,
-				A1BAA5E6E49F4576DDDF7EB3 /* Pods-Ketchup-KetchupUITests.debug.xcconfig */,
-				2619E945DEF7A2EB4ED62551 /* Pods-Ketchup-KetchupUITests.release.xcconfig */,
-				6FAB8275DDFA15C093DBB7F3 /* Pods-KetchupTests.debug.xcconfig */,
-				083FD3660CA20F4CEB8D6C9C /* Pods-KetchupTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -202,6 +220,8 @@
 				55CA482E2879E4070072A333 /* Sources */,
 				55CA482F2879E4070072A333 /* Frameworks */,
 				55CA48302879E4070072A333 /* Resources */,
+				55CA50962879F9380072A333 /* SwiftLint Script */,
+				0C7B4C4F2E6F6A6E909E0E28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,7 +236,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55CA485F2879E4080072A333 /* Build configuration list for PBXNativeTarget "KetchupTests" */;
 			buildPhases = (
-				0B3D99FCF302713A7E605108 /* [CP] Check Pods Manifest.lock */,
 				55CA48442879E4080072A333 /* Sources */,
 				55CA48452879E4080072A333 /* Frameworks */,
 				55CA48462879E4080072A333 /* Resources */,
@@ -235,7 +254,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55CA48622879E4080072A333 /* Build configuration list for PBXNativeTarget "KetchupUITests" */;
 			buildPhases = (
-				616341D12425C00F822A0C4B /* [CP] Check Pods Manifest.lock */,
 				55CA484E2879E4080072A333 /* Sources */,
 				55CA484F2879E4080072A333 /* Frameworks */,
 				55CA48502879E4080072A333 /* Resources */,
@@ -256,7 +274,7 @@
 		55CA482A2879E4070072A333 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
@@ -280,6 +298,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 55CA48292879E4070072A333;
 			productRefGroup = 55CA48332879E4070072A333 /* Products */;
@@ -321,26 +340,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0B3D99FCF302713A7E605108 /* [CP] Check Pods Manifest.lock */ = {
+		0C7B4C4F2E6F6A6E909E0E28 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ketchup/Pods-Ketchup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KetchupTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-Ketchup/Pods-Ketchup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ketchup/Pods-Ketchup-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B0C1668D41CD76C5FE1FE10 /* [CP] Check Pods Manifest.lock */ = {
@@ -365,7 +379,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		616341D12425C00F822A0C4B /* [CP] Check Pods Manifest.lock */ = {
+		55CA50962879F9380072A333 /* SwiftLint Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,19 +387,15 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "SwiftLint Script";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Ketchup-KetchupUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -437,6 +447,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				55CA483C2879E4070072A333 /* Base */,
+				55CA50952879F5A50072A333 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -445,6 +456,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				55CA48412879E4080072A333 /* Base */,
+				55CA50942879F5A50072A333 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -456,6 +468,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -517,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -578,7 +592,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 754Q6V2X9B;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Ketchup/Info.plist;
+				INFOPLIST_FILE = Ketchup/Configs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -607,7 +621,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 754Q6V2X9B;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Ketchup/Info.plist;
+				INFOPLIST_FILE = Ketchup/Configs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -628,7 +642,6 @@
 		};
 		55CA48602879E4080072A333 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FAB8275DDFA15C093DBB7F3 /* Pods-KetchupTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -649,7 +662,6 @@
 		};
 		55CA48612879E4080072A333 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 083FD3660CA20F4CEB8D6C9C /* Pods-KetchupTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -670,7 +682,6 @@
 		};
 		55CA48632879E4080072A333 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1BAA5E6E49F4576DDDF7EB3 /* Pods-Ketchup-KetchupUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -689,7 +700,6 @@
 		};
 		55CA48642879E4080072A333 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2619E945DEF7A2EB4ED62551 /* Pods-Ketchup-KetchupUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
